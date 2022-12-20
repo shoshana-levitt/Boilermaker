@@ -1,0 +1,25 @@
+{
+  "name": "boilermaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "start-dev": "webpack -w & nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoshana-levitt/Boilermaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoshana-levitt/Boilermaker/issues"
+  },
+  "homepage": "https://github.com/shoshana-levitt/Boilermaker#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
+}
